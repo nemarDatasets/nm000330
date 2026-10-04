@@ -1,0 +1,150 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Benjakarn Uengsawapak": {},
+    "Supavit Kongwudhikunakorn": {
+      "orcid": "0000-0003-0834-5209",
+      "affiliations": [
+        {
+          "name": "Vidyasirimedhi Institute of Science and Technology",
+          "identifier": "https://ror.org/053jehz60",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Suktipol Kiatthaveephong": {
+      "orcid": "0000-0002-1776-2795",
+      "affiliations": [
+        {
+          "name": "Vidyasirimedhi Institute of Science and Technology",
+          "identifier": "https://ror.org/053jehz60",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Wipamas Polpakdee": {
+      "orcid": "0009-0003-7671-574X",
+      "affiliations": [
+        {
+          "name": "Vidyasirimedhi Institute of Science and Technology",
+          "identifier": "https://ror.org/053jehz60",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Rattanaphon Chaisaen": {
+      "orcid": "0000-0003-1521-9956",
+      "affiliations": [
+        {
+          "name": "Vidyasirimedhi Institute of Science and Technology",
+          "identifier": "https://ror.org/053jehz60",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Poramate Manoonpong": {
+      "orcid": "0000-0002-4806-7576",
+      "affiliations": [
+        {
+          "name": "Vidyasirimedhi Institute of Science and Technology",
+          "identifier": "https://ror.org/053jehz60",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Chanitsada Chuenchit": {},
+    "Gun Bhakdisongkhram": {
+      "orcid": "0000-0001-7434-9262",
+      "affiliations": [
+        {
+          "name": "Suranaree University of Technology"
+        }
+      ]
+    },
+    "Theerawit Wilaiprasitporn": {
+      "orcid": "0000-0003-4941-4354",
+      "affiliations": [
+        {
+          "name": "Vidyasirimedhi Institute of Science and Technology",
+          "identifier": "https://ror.org/053jehz60",
+          "scheme": "ROR"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20348444",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000330",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000330",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Leelakittisin2025",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "14.38 GB (44 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "EEG dataset targeting sit-to-stand and stand-to-sit transitions during motor execution and motor imagery in 22 healthy participants. Recordings include 60-channel EEG, 2 EOG channels and EMG, collected over two sessions per participant at 1200 Hz. The dataset supports study of neural activation patterns during postural transitions and the development of motor imagery brain-computer interfaces.",
+  "methods_description": "Twenty-two healthy participants performed sit-to-stand and stand-to-sit transitions under motor execution and motor imagery conditions across two sessions. EEG was recorded from 60 channels in a 10-05 montage at 1200 Hz, with 2 EOG and 6 EMG auxiliary channels. Trigger codes on a stimulus channel marked transition and rest events. Trials lasted 4 s, with 20 trials per class.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "motor execution"
+    },
+    {
+      "term": "sit-to-stand"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Imagery, Psychotherapy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019018"
+    }
+  ],
+  "source_hash": "e803bd126e43696dbe8e7c50136c7c23ce2da72eb738d8435c2b3db0a2f86635"
+}
