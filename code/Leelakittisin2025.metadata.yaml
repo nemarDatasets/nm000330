@@ -1,0 +1,143 @@
+_dataset:
+  class: Leelakittisin2025
+  code: Leelakittisin2025
+  doi: 10.5281/zenodo.20348444
+  interval:
+  - 0
+  - 4
+  n_subjects: 22
+  paradigm: imagery
+acquisition:
+  auxiliary_channels:
+    emg_channels: 6
+    eog_channels: 2
+    eog_type:
+    - horizontal
+    - vertical
+    has_emg: true
+    has_eog: true
+  channel_types:
+    eeg: 60
+    eog: 2
+    stim: 1
+  line_freq: 50.0
+  montage: 10-05
+  sampling_rate: 1200.0
+  sensors:
+  - Fp1
+  - Fp2
+  - AF7
+  - AF8
+  - F7
+  - F8
+  - FT7
+  - FT8
+  - AF3
+  - AF4
+  - AFz
+  - Fz
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - FCz
+  - Cz
+  - FC1
+  - FC2
+  - FC3
+  - FC4
+  - FC5
+  - FC6
+  - C1
+  - C2
+  - C3
+  - C4
+  - C5
+  - C6
+  - CPz
+  - Pz
+  - CP1
+  - CP2
+  - CP3
+  - CP4
+  - CP5
+  - CP6
+  - TP7
+  - TP8
+  - P1
+  - P2
+  - P3
+  - P4
+  - P5
+  - P6
+  - P7
+  - P8
+  - POz
+  - Oz
+  - PO3
+  - PO4
+  - PO7
+  - PO8
+  - PO9
+  - PO10
+  - O1
+  - O2
+documentation:
+  country: TH
+  description: First public EEG dataset explicitly targeting sit-to-stand and stand-to-sit transitions during motor execution
+    and motor imagery, from 22 healthy participants with 60-channel EEG, EOG and EMG.
+  doi: 10.5281/zenodo.20348444
+  institution: Vidyasirimedhi Institute of Science and Technology
+  investigators:
+  - Benjakarn Uengsawapak
+  - Supavit Kongwudhikunakorn
+  - Suktipol Kiatthaveephong
+  - Wipamas Polpakdee
+  - Rattanaphon Chaisaen
+  - Poramate Manoonpong
+  - Chanitsada Chuenchit
+  - Gun Bhakdisongkhram
+  - Theerawit Wilaiprasitporn
+  license: CC0-1.0
+  publication_year: 2025
+  repository: Zenodo
+experiment:
+  class_labels:
+  - sit_stand
+  - stand_sit
+  events:
+    sit_stand: 21
+    stand_sit: 32
+  mode: offline
+  n_classes: 2
+  paradigm: imagery
+  study_design: 'Sit-to-stand and stand-to-sit transitions performed under both motor execution and motor imagery conditions;
+    trigger codes at channel 63 mark each transition/rest event. MI: two rounds of 10 trials per task per session (readme
+    index table).'
+  trial_duration: 4.0
+  trials_per_class:
+    sit_stand: 20
+    stand_sit: 20
+participants:
+  age_max: 30.0
+  age_min: 18.0
+  bci_experience: mixed (6 of 22 with prior EEG experience)
+  gender:
+    female: 7
+    male: 15
+  handedness:
+    both: 1
+    left: 2
+    right: 19
+  health_status: healthy
+  n_subjects: 22
+  species: homo sapiens
+runs_per_session: 1
+sessions_per_subject: 2
+tags:
+  modality:
+  - Motor
+  type:
+  - Motor Imagery
