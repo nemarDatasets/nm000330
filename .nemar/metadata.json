@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Leelakittisin2025: Sit-to-stand / stand-to-sit transition motor imagery dataset",
+  "description": "An EEG dataset targeting sit-to-stand and stand-to-sit transitions during motor execution and motor imagery. It includes 22 healthy participants recorded over two sessions each, with 60-channel EEG, EOG and EMG. This BIDS release was produced via MOABB from the originally published Zenodo deposit and supports research on neural activation patterns and BCI decoding of postural transitions.",
+  "methods_description": "EEG was recorded at 1200 Hz with 60 EEG channels in a 10-05 montage, plus 2 EOG channels, 6 EMG channels and a trigger channel. Participants performed sit-to-stand and stand-to-sit transitions under motor execution and motor imagery conditions. Motor imagery comprised two rounds of 10 trials per task per session, with 4 s trials.",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
   "authors": {
     "Benjakarn Uengsawapak": {},
     "Supavit Kongwudhikunakorn": {
@@ -73,6 +78,31 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "sit-to-stand"
+    },
+    {
+      "term": "stand-to-sit transition"
+    },
+    {
+      "term": "motor execution"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.20348444",
@@ -100,51 +130,20 @@
       "relation_type": "References"
     }
   ],
-  "title": "Leelakittisin2025",
-  "license": "CC0-1.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "14.38 GB (44 files)"
+    "14.68 GB (45 files)"
   ],
   "formats": [
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "EEG dataset targeting sit-to-stand and stand-to-sit transitions during motor execution and motor imagery in 22 healthy participants. Recordings include 60-channel EEG, 2 EOG channels and EMG, collected over two sessions per participant at 1200 Hz. The dataset supports study of neural activation patterns during postural transitions and the development of motor imagery brain-computer interfaces.",
-  "methods_description": "Twenty-two healthy participants performed sit-to-stand and stand-to-sit transitions under motor execution and motor imagery conditions across two sessions. EEG was recorded from 60 channels in a 10-05 montage at 1200 Hz, with 2 EOG and 6 EMG auxiliary channels. Trigger codes on a stimulus channel marked transition and rest events. Trials lasted 4 s, with 20 trials per class.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "motor execution"
-    },
-    {
-      "term": "sit-to-stand"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "Imagery, Psychotherapy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D019018"
-    }
-  ],
-  "source_hash": "e803bd126e43696dbe8e7c50136c7c23ce2da72eb738d8435c2b3db0a2f86635"
+  "source_hash": "05ea4565586bbaf6274c580943a307b0f1bcfefe450a7a7b82c865737dbf0d16"
 }
