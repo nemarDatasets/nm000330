@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Leelakittisin2025: Sit-to-stand / stand-to-sit transition motor imagery dataset",
-  "description": "An EEG dataset targeting sit-to-stand and stand-to-sit transitions during motor execution and motor imagery. It includes 22 healthy participants recorded over two sessions each, with 60-channel EEG, EOG and EMG. This BIDS release was produced via MOABB from the originally published Zenodo deposit and supports research on neural activation patterns and BCI decoding of postural transitions.",
-  "methods_description": "EEG was recorded at 1200 Hz with 60 EEG channels in a 10-05 montage, plus 2 EOG channels, 6 EMG channels and a trigger channel. Participants performed sit-to-stand and stand-to-sit transitions under motor execution and motor imagery conditions. Motor imagery comprised two rounds of 10 trials per task per session, with 4 s trials.",
+  "description": "A BIDS re-release of an EEG dataset targeting sit-to-stand and stand-to-sit transitions during motor execution and motor imagery. It includes 22 healthy participants recorded over two sessions each with 60-channel EEG, 2 EOG channels and EMG at a 1200 Hz sampling rate. The dataset supports study of neural activation patterns and brain-computer interface decoding of lower-limb postural transitions.",
+  "methods_description": "EEG was recorded at 1200 Hz from 60 scalp channels (10-05 montage), plus 2 EOG and 6 EMG channels, with trigger codes on a stim channel. Participants performed sit-to-stand and stand-to-sit transitions under motor execution and motor imagery conditions, with two rounds of 10 trials per task per session and a 4 s trial duration.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -83,24 +83,19 @@
       "term": "EEG"
     },
     {
-      "term": "motor imagery"
+      "term": "Motor Imagery"
     },
     {
       "term": "sit-to-stand"
     },
     {
-      "term": "stand-to-sit transition"
+      "term": "stand-to-sit"
     },
     {
       "term": "motor execution"
     },
     {
       "term": "brain-computer interface"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -136,14 +131,16 @@
     "eeg"
   ],
   "sizes": [
-    "14.68 GB (45 files)"
+    "58.18 GB (90 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".mat",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "05ea4565586bbaf6274c580943a307b0f1bcfefe450a7a7b82c865737dbf0d16"
+  "source_hash": "286835c59206b9026e810133cee884cd2f6cee074abb8c41ebf40f2835e4b8b8"
 }
