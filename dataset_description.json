@@ -1,41 +1,45 @@
 {
-    "Name": "Leelakittisin2025: Sit-to-stand / stand-to-sit transition motor imagery dataset",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC0-1.0",
-    "Authors": [
-        "Benjakarn Uengsawapak",
-        "Supavit Kongwudhikunakorn",
-        "Suktipol Kiatthaveephong",
-        "Wipamas Polpakdee",
-        "Rattanaphon Chaisaen",
-        "Poramate Manoonpong",
-        "Chanitsada Chuenchit",
-        "Gun Bhakdisongkhram",
-        "Theerawit Wilaiprasitporn"
-    ],
-    "Keywords": [
-        "Motor",
-        "Motor Imagery",
-        "imagery"
-    ],
-    "DatasetDOI": "doi:10.5281/zenodo.20348444",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.5281/zenodo.20348444"
-        }
-    ],
-    "PublicationYear": 2025,
-    "EthicsApprovals": [
-        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
-    ]
+  "Name": "Leelakittisin2025: Sit-to-stand / stand-to-sit transition motor imagery dataset",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC0-1.0",
+  "Authors": [
+    "Benjakarn Uengsawapak",
+    "Supavit Kongwudhikunakorn",
+    "Suktipol Kiatthaveephong",
+    "Wipamas Polpakdee",
+    "Rattanaphon Chaisaen",
+    "Poramate Manoonpong",
+    "Chanitsada Chuenchit",
+    "Gun Bhakdisongkhram",
+    "Theerawit Wilaiprasitporn"
+  ],
+  "Keywords": [
+    "Motor",
+    "Motor Imagery",
+    "imagery"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000330",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.5281/zenodo.20348444"
+    },
+    {
+      "DOI": "doi:10.5281/zenodo.20348444"
+    }
+  ],
+  "PublicationYear": 2025,
+  "EthicsApprovals": [
+    "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+  ],
+  "Version": "1.0.0"
 }
